@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="./assets/download.webp">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+  <style>
+    /* Add this CSS for color animation */
+    .color-animate {
+      animation: colorChange 5s infinite;
+    }
+    @keyframes colorChange {
+      0% { color: red; }
+      33% { color: blue; }
+      66% { color: green; }
+      100% { color: red; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/juma.JPG" alt="JUma" width="400" style="border-radius: 50%; margin-bottom: 15px;">
+    <p style="text-align: left corner;"><h1 class="color-animate"><u><b>JUMA MAXIWELL</b></u></h1>
+    <p>CLOUD COMPUTING | SOFTWARE DEVELOPER</p>
+     <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate developer learning to build web and mobile apps. I love solving problems with code and sharing what I learn.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+                                     <h3>Todo App</h3>
+      <p>A simple to-do list app built with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>This portfolio site to showcase my work and skills.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:youremail@example.com">jumamaxwell185@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/Giggab26</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/JUMA MAXIWELL</a></p>
+    <p>Contact: ‪+254791644011‬</p>
+  </section>
+
+  <footer>
+    <p style="text-align: left;"><span style="font-family: 'Tangerine', cursive;">© 2025 Juma Maxiwell</span></p>
+  </footer>
+</body>
+</html>
